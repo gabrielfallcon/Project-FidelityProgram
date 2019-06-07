@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br   ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./img/favico.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/conta.css">
+    <script defer src="./js/scripts.js"></script>
+    <title>Programa de Fidelidade | Administrador</title>
+</head>
+<body>
+    
+        <nav>
+                <div class="cor">
+                    <div class="cima">
+    
+                        <a href="index.html">
+                            <div class="logo-pesquisa">
+                                <img src="./img/favico.png" alt="">
+                                
+                            </div>
+                        </a>
+    
+                        <div class="entrarr">
+                            <button onclick="logout()">Sair</button>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+    
+               
+        <header>
+            
+            <div class="vertical">
+                <div class="perfil">
+                    
+                </div>
+                <div class="botoes">
+                    <button onclick="mostrarPainel0()" class="button btnn0"><h3>Temporada</h3></button>
+                    <button onclick="mostrarPainel1()" class="button btnn1"><h3>Nova Missão</h3></button>
+                    <button onclick="mostrarPainel2()" class="button btnn2"><h3>Novo Produto</h3></button>
+    
+                </div>
+            </div>
+            
+            <div class="modal">
+                    <div class="troca">
+                        <h1>Adicionado com Sucesso!</h1>
+                        <div class="btnModal">
+                            <button onclick="sim()">Ok</button>
+                        </div>
+                    </div>
+            </div>
+
+            <!-- INICIO da horizontal================================================= -->
+            
+
+            <!-- Horizontal2============================ -->
+
+            <div class="horizontal horizontal0">
+
+                <div class="cima">
+                    <h1>Prepare um nova Temporada para o próximo semestre!</h1>
+                </div>
+
+                <div class="baixo ">
+                    
+                   
+                    <h1 id="dc">Criar Temporada</h1>
+
+                    <div class="rl1">
+
+                        <div class="editar">
+
+                            <div class="parte1">
+                                 Nome da Temporada
+                                <input type="text" id="dados">
+
+                                Prêmio 1lugar
+                                <input type="text" id="dados">
+
+                                Prêmio 2lugar
+                                <input type="text" id="dados">
+
+                            </div>
+                            <div class="parte2">
+
+                                Prêmio 3lugar
+                                <input type="text" id="dados">
+
+                                Começo
+                                <input type="date"  id="dados">
+
+                                Término
+                                <input type="date"  id="dados">
+
+                                Descrição
+                                <textarea  id="" cols="60" rows="15"></textarea>
+
+                            </div>
+
+                            
+                        </div>
+
+                       
+
+                    </div>
+
+                    <button onclick="abrirModal()" id="atualizar">Salvar</button>
+
+                </div>
+
+            </div>
+
+            <!-- ========================================================================================= -->
+
+            <div class="horizontal horizontal1">
+
+                    <div class="cima">
+                        <h1>Adicionar um novo Desafio</h1>
+                    </div>
+    
+                    <div class="baixo ">
+                        
+                       
+                        <h1 id="dc">Criar novo desafio</h1>
+    
+                        <div class="rl1">
+    
+                            <div class="editar">
+    
+                                <div class="parte1">
+
+                                    Nome do desafio 
+                                    <input type="text"  id="dados">
+
+                                    Recompensa
+                                    <input type="text" id="dados">
+
+                                    Categoria
+                                    <input type="text"  id="dados">
+
+                                    Descrição
+                                    <textarea style="resize: none"  cols="60" rows="15"></textarea>
+
+                        
+                                </div>
+    
+                                <div class="parte2">
+                                    Duração do desafio em dias
+                                    <input type="number"  id="dados">
+                                    
+                                   
+                                </div>
+    
+                                
+                            </div>
+    
+                           
+    
+                        </div>
+    
+                        <button onclick="abrirModal()" id="atualizar">Criar</button>
+    
+                    </div>
+    
+                </div>
+
+                <!-- ================================================================================================ -->
+
+                <div class="horizontal horizontal2">
+
+                <div class="cima">
+                    <h1>Crie um novo produto para exibir na pág de produtos</h1>
+                </div>
+
+                <div class="baixo ">
+                    
+                   
+                    <h1 id="dc">Adicionar Produto</h1>
+
+                    <div class="rl1">
+
+                        <div class="editar">
+
+                            <div class="parte1">
+
+                                 Nome do Produto
+                                <input type="text"  id="dados">
+
+                                Categoria
+                                <input type="text"  id="dados">
+
+                                Titulo
+                                <input type="text"  id="dados">
+
+                                Imagem
+                                <input type="file" id="dados">
+                                
+                                Valor
+                                <input type="number"  id="dados">
+
+                                
+
+                            
+                            </div>
+
+                            <div class="parte2">
+                                Descrição
+                                <textarea style="resize: none" id="" cols="60" rows="15"></textarea>
+                               
+                            </div>
+
+                            
+                        </div>
+
+                       
+
+                    </div>
+
+                    <button onclick="abrirModal()" id="atualizar">Criar</button>
+
+                </div>
+
+            </div>
+
+    
+
+
+        </header>
+
+       
+
+    
+</body>
+</html>

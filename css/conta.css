@@ -1,0 +1,812 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+nav{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+/* cima================================================== */
+.cor{
+    width: 100vw;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #5588a3;
+}
+.cima{
+    width: 95%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+     
+}
+ 
+
+
+.logo-pesquisa{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.logo-pesquisa img{
+    width: 200px;
+}
+ 
+
+.entrarr{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.entrarr button{
+    width: 120px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #145374;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #145374;
+    transition: .2s;
+}
+.entrarr button:hover{
+    color: white;
+    background-color: #145374;
+    border: 1px solid white;
+}
+
+.baixo{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color:  white;
+    color: black;
+}
+#dc{
+    margin-left: 20%;
+    font-size: 30px;
+}
+.menu{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.principal{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.principal li{
+    cursor: pointer;
+}
+.principal a{
+    text-decoration: none;
+    color: black;
+}
+
+.juntar{
+    position: absolute;
+    margin-top: 15px;
+    width: 600px;
+    height: 315px;
+    background-color: #fff;
+    list-style: none;
+    color: black;
+    display: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column; 
+    transition: 1s;
+}
+ 
+.juntar li{
+    margin: 5px;
+}
+.trocar{
+    position: absolute;
+    margin-top: 15px;
+    width: 600px;
+    height: 315px;
+    background-color: #fff;
+    list-style: none;
+    color: black;
+    display: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column; 
+}
+
+
+.ofertas{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+/* ========================================================================== */
+
+
+header{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+ 
+
+.vertical{
+    width: 20%;
+    height: 100vh;
+    background-color: #5588a3;
+    border-right: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #5588a3;
+}
+
+.perfil img{
+    width: 250px;
+}
+ 
+
+.perfil h1{
+    color: white;
+}
+.botoes{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.button {
+    width: 100%;
+    height: 15%;
+    background-color: #5588a3;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    transition: .2s;
+    color: white;
+    margin: 0;
+    border: none;
+    font-size: 16px;
+}
+.button:hover{
+    background-color: white;
+    color: #145374;
+    border: 1px solid white;
+}
+.button:focus{
+    background-color:white;
+    color: #145374;
+    border: 1px solid white;
+}
+
+/* Modal de troca======================================== */
+.sucesso{
+    width: 100vw;
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalTroca{
+    width: 100vw;
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    width: 100vw;
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.troca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #00334e;
+    border-radius: 15px;
+    width: 400px;
+    height: 150px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.troca button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    background-color: #00334e;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.troca button:hover{
+    background-color: #fff;
+    color: black;
+}
+.troca img{
+    width: 100px;
+}
+
+
+.fazerTroca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #00334e;
+    border-radius: 15px;
+    width: 400px;
+    height: auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.fazerTroca button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    background-color: #00334e;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.fazerTroca button:hover{
+    background-color: #fff;
+    color: black;
+}
+.fazerTroca img{
+    width: 150px;
+}
+
+/* ====================================== */
+
+.baixoBranco{
+    background-color: #fff;
+}
+
+.cima3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal0{
+    width: 75%;
+    height: 100vh;
+    display: block;
+}
+
+.situacao{
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 150px;
+    align-items: center;
+}
+
+.situacao h1{
+    font-size: 30px;
+}
+#bz{
+    color: #926846;
+}
+
+#bz span{
+    color: #7b8ea5;
+}
+
+#missaoDireita{
+    margin-left: 120px;
+}
+
+
+ 
+
+
+
+/* ================================================================= */
+
+.horizontal1{
+    width: 75%;
+    height: 100vh;
+    display: none;
+}
+
+
+
+.cima1{
+    height: 12%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.baixo{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ranking{
+    height: auto;
+    width: 25%; 
+    height: 110px;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#f3f3f3;
+    border: 1px solid #020023;
+    border-radius: 15px;
+    margin-right: -280px;
+    cursor: pointer;
+    transition: .4s;
+    color: #020023;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ranking:hover{
+    margin-right: -100px;
+}
+.ranking span{
+    font-size: 18px;
+}
+
+.ranking img{
+    width: 50px;
+}
+
+.rolagem{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.produtos{
+    width: 75%;
+    height: 400px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.card {
+    width: 30%;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: .2s;
+    height: 350px;
+}
+.bronze:hover{
+    margin-top: -10px;
+}
+.card img{
+    width: 150px;
+}
+.card h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    
+}
+.card button{
+    width: 100px;
+    padding: 12px;
+    border: 1px solid #5588a3;
+    color: #5588a3;
+    background-color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .2s;
+}
+.bronze button:hover{
+    background-color: #5588a3;
+    border: 1px solid white;
+    color: white;
+}
+
+.ouro{
+    border: 1px solid #b89400;
+    box-shadow: 10px 8px 30px #b89400;
+    opacity: .3;
+    cursor: not-allowed;
+}
+.prata{
+    border: 1px solid #7b8ea5;
+    box-shadow: 10px 10px 30px#7b8ea5;
+    opacity: .3;
+    cursor: not-allowed;
+}
+.bronze{
+    border: 1px solid #926846;
+    box-shadow: 10px 10px 30px #926846;
+    
+}
+
+/* horizontal2 ============================================ */
+
+.horizontal2{
+    width: 75vw;
+    height: 100vh;
+    display: none;
+}
+
+.rl1{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+ 
+
+.editar{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 25%;
+}
+.parte1, .parte2{
+    display: flex;
+    flex-direction: column;
+}
+#dados{
+    width: 200px;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 10px;
+    border: 1px solid #145374;
+    background-color: #fff; 
+    transition: .4s;
+}
+
+#atualizar{
+    width: 100px;
+    padding: 12px;
+    background-color: #145374;
+    border: 1px solid white;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .2s;
+    margin-left: 70%;
+    margin-top: 70px;
+    
+}
+
+#atualizar:hover{
+    
+    border: 1px solid #145374;
+    color: #145374;
+    background-color: #fff;
+}
+
+ 
+
+/* ========================================== */
+
+.temporadaCor{
+   
+    border-bottom: 1px solid white;
+}
+
+/* .voltarPainel button{
+    width: 120px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #020023;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #020023;
+    transition: .2s;
+}
+.voltarPainel button:hover{
+    color: white;
+    background-color: #020023;
+    border: 1px solid white;
+} */
+
+.horizontal3{
+    width: 100%;
+    height: 100vh;
+    display: none;
+    background-color: white;
+    color: black;
+}
+.preto{
+    background-color: #e8e8e8;
+     
+}
+ 
+ 
+.cmi{
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.restam{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px;
+    align-items: flex-start;
+}
+.count{
+    display: flex;
+    color: black;
+    font-size: 40px;
+    width: 100%;
+    justify-content: space-around;
+}
+.countd{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.painel5{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.temporada{
+    width: 55%;
+    height: 500px;
+    background-color: #e8e8e8;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    border-top: 1px solid black;
+    overflow-y: scroll;
+    justify-content: center;
+}
+ 
+#posicao{
+     
+    color: black;
+    text-align: center;
+}
+.temporada tr{
+    text-align: center;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.temporada tr:hover{
+    opacity: .7;
+}
+.temporada td{
+    font-weight: bold;
+    font-size: 18px;
+}
+#sqg{
+    background-color:#7b8ea5;
+    color: white;
+}
+#primeiro{
+    color: #b89400;
+}
+#segundo{
+    color: #7b8ea5;
+}
+#terceiro{
+    color: #926846;
+}
+
+.concorrente{
+    width: 400px;
+    height: 400px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+     
+     
+    margin-right: 100px;
+}
+
+.concorrente img{
+    width: 200px;
+    align-self: center;
+}
+.concorrente p{
+    width: 400px;
+    text-align: center;
+}
+.sqginfo{
+    display: none;
+}
+.sweda{
+    display: none;
+}
+.mov{
+    display: none;
+}
+.yy{
+    display: none;
+}
+
+
+
+
+
+/* horizontal4================================================= */
+
+.horizontal4{
+    width: 75vw;
+    height: 100vh;
+    display: none;
+}
+
+.rl4{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+    
+}
+
+.tabela{
+    display: flex;
+    width: 70%;
+    height: 500px;
+    justify-content: space-around;
+    border: 1px solid white;
+    overflow-y: scroll;
+    border-radius: 5px;
+    background-color: #e8e8e8;
+    color: black;
+}
+#lista-titulo{
+    margin-left: 180px;
+}
+.lista{
+   
+    list-style: none;
+    
+    margin: 0;
+}
+.lista li{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.completadas h1{
+    margin-left: 20%;
+    font-size: 30px;
+}
+
+.recebido h1{
+    margin-left: 30%;
+    font-size: 30px;
+}
+#rcp1{
+    margin-right: 10px;
+} 
+
+
+/* ========================================================== */
+.horizontal5{
+    width: 75vw;
+    height: 100vh;
+    display: none;
+}
+
+.rl4{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+    
+}
+
+.tabela{
+    display: flex;
+    width: 70%;
+    height: 500px;
+    justify-content: space-around;
+    border: 1px solid white;
+    overflow-y: scroll;
+    border-radius: 5px;
+    background-color: #e8e8e8;
+    color: black;
+}
+.lista{
+   
+    list-style: none;
+    margin: 0;
+}
+.lista2 li{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.completadas h1{
+    margin-left: 20%;
+    font-size: 30px;
+}
+ 
+
+.recebido2 h1{
+    margin-left: 40%;
+    font-size: 30px;
+}
+#rcp1{
+    margin-right: 10px;
+} 

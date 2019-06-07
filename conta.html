@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="pt-br   ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./img/favico.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/conta.css">
+    <link rel="stylesheet" href="./css/loadingNivel.css">
+    <link rel="stylesheet" href="css/scroll.css">
+
+
+    <script defer src="./js/scripts.js"></script>
+    <script defer src="./js/temporada.js"></script>
+    <title>Programa de Fidelidade | Minha Conta</title>
+</head>
+<body>
+    
+        <nav>
+                <div class="cor">
+                    <div class="cima">
+    
+                        <a href="index.html">
+                            <div class="logo-pesquisa">
+                                <img src="./img/favico.png" alt="">
+                                
+                            </div>
+                        </a>
+    
+                        <div class="entrarr">
+                            <button onclick="logout()">Sair</button>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+    
+               
+        <header>
+            
+            <div class="vertical">
+                <div class="perfil">
+                    <img src="./img/3y.png" alt="">
+                    
+                </div>
+                <div class="botoes">
+                    <button onclick="mostrarPainel0()" class="button btnn0"><h3>Jornada</h3></button>
+                    <button onclick="mostrarPainel1()" class="button btnn1"><h3>Produtos</h3></button>
+                    <button onclick="mostrarPainel2()" class="button btnn2"><h3>Perfil</h3></button>
+                    <button onclick="mostrarPainel3()" class="button btnn3"><h3>Temporada</h3></button>
+                    <button onclick="mostrarPainel4()" class="button btnn4"><h3>Historico</h3></button>
+                    <button onclick="mostrarPainel5()" class="button btnn4"><h3>Regras de Temporada</h3></button>
+                </div>
+            </div>
+
+             
+            
+            
+
+            <!-- =-------------------------------------------------------------------- -->
+
+            <div class="modalTroca">
+                    <div class="fazerTroca">
+                        <img src="./img/microsoft.png" alt="">
+                        <h1>Palestra - Microsoft</h1>
+                        <p> Essa palestra tem como objetivo ter novas experiências com Micosoft Edge, Azure etc.</p>
+                        <p> Essa palestra consiste em até 60 participantes mas se caso queira incluir mais sera descontado um valor de pontos em cima do valor cheio. </p>
+                        <p> - Ao clicar em (TROCAR) um email será enviado para você com todas as instrucões de como agendar uma palestra.</p>
+                        <div class="btnModal">
+                            <button onclick="trocarP()">Trocar</button>
+                            <button onclick="voltarP()">Voltar</button>
+                        </div>
+                    </div>
+            </div>
+
+            <!-- -------------------------------------------------------------------- -->
+
+            <div class="modal sucesso">
+                    <div class="troca">
+                        <h3>Troca feita com sucesso verifique seu Email em alguns minutos!!</h3>
+                        <div class="btnModal">
+                            <button onclick="sim()">Ok</button>
+                        </div>
+                    </div>
+            </div>
+
+            <!-- INICIO da horizontal================================================= -->
+            <div class="horizontal horizontal0">
+
+                <div class="cima3">
+                    <h1>Pontos</h1>
+                </div>
+
+                <div class="baixo baixoBranco">
+
+                    <div class="ranking">
+                        <img src="./img/3lugar.png" alt="">
+                        <h1>75.589 <span>Pts.</span> </h1>
+                        
+                    </div>
+                     
+                    <div class="situacao">
+
+                        
+                        <div class="container">  
+                            <h1 id="bz">BRONZE</h1>
+                            <div class="progress2 progress-moved">
+                              <div class="progress-bar2" >
+                              </div>                       
+                            </div> 
+                            <h1>150.589/200.000</h1> 
+                        </div>
+
+                        <h1 id="bz">Chegue ao nivel <span>Prata</span>  para desbloqueiar novos Produtos</h1>
+                        <div class="produtos">
+
+                           
+
+                            <div class="card prata">
+                                <h1>Palestra</h1>
+                                <img src="./img/java.png" alt="">
+                                <h1>4.000</h1>
+                                <button >Trocar</button>
+                            </div>
+
+                            <div class="card prata">
+                                <h1>Treinamento</h1>
+                                <img src="./img/microsoft.png" alt="">
+                                <h1>6.000</h1>
+                                <button >Trocar</button>
+                            </div>
+
+                            <div class="card prata">
+                                <h1>Visita Técnica</h1>
+                                <img src="./img/microsoft.png" alt="">
+                                <h1>10.000</h1>
+                                <button >Trocar</button>
+                            </div>
+                        
+
+                    </div>
+
+                    </div>
+
+                    <h1 id="dc">Histórico de missões  realizadas</h1>
+
+                    <div class="rl4">
+
+                        <div class="tabela">
+
+                            <div class="completadas">
+                                <h1 id="missaoDireita">MISSÃO</h1>
+                                <ul class="lista">
+                                    <li>Pesquisa de Satisfação</li>
+                                    <li>Indicação S.H.</li>
+                                    <li>Venda TEF</li>
+                                    
+                                    <li>Pesquisa Cliente</li>
+                                    <li>Pesquisa de Satisfação</li>
+                                    <li>Indicação S.H.</li>
+                                    <li>Venda TEF</li>
+                                    <li>Pesquisa Cliente</li>
+                                    <li>Pesquisa de Satisfação</li>
+                                    <li>Indicação S.H.</li>
+                                    <li>Venda TEF</li>
+                                    <li>Pesquisa Cliente</li>
+                                    <li>Pesquisa de Satisfação</li>
+                                    <li>Indicação S.H.</li>
+                                    <li>Venda TEF</li>
+                                    <li>Pesquisa Cliente</li>
+                                    <li>Pesquisa de Satisfação</li>
+                                    <li>Indicação S.H.</li>
+                                    <li>Venda TEF</li>
+                                    <li>Pesquisa Cliente</li>
+                                    <li>Pesquisa de Satisfação</li>
+                                    <li>Indicação S.H.</li>
+                                    <li>Venda TEF</li>
+                                    <li>Pesquisa Cliente</li>
+                                    <li>Pesquisa de Satisfação</li>
+                                    <li>Indicação S.H.</li>
+                                    <li>Venda TEF</li>
+                                    <li>Pesquisa Cliente</li>
+                                    <li>Pesquisa de Satisfação</li>
+                                    <li>Indicação S.H.</li>
+                                    <li>Venda TEF</li>
+                                    <li>Pesquisa Cliente</li>
+                                    <li>Pesquisa de Satisfação</li>
+                                    <li>Indicação S.H.</li>
+                                    <li>Venda TEF</li>
+                                    <li>Pesquisa Cliente</li>
+                                    <li>Pesquisa de Satisfação</li>
+                                    <li>Indicação S.H.</li>
+                                    <li>Venda TEF</li>
+                                    <li>Pesquisa Cliente</li>
+                                    <li>Pesquisa de Satisfação</li>
+                                    <li>Indicação S.H.</li>
+                                    <li>Venda TEF</li>
+                                    <li>Pesquisa Cliente</li>
+                                    <li>Pesquisa de Satisfação</li>
+                                    <li>Indicação S.H.</li>
+                                    <li>Venda TEF</li>
+                                    <li>Pesquisa Cliente</li>
+                                </ul>
+                            </div>
+
+                            <div class="recebido">
+                                <h1 id="rcp1">RECOMPENSSA</h1>
+                                <ul class="lista">
+                                    <li>3.000</li>
+                                    <li>8.000</li>
+                                    <li>9.500</li>
+                                    <li>1.000</li>
+                                    <li>2.000</li>
+                                    <li>4.400</li>
+                                    <li>3.000</li>
+                                    <li>8.000</li>
+                                    <li>9.500</li>
+                                    <li>1.000</li>
+                                    <li>2.000</li>
+                                    <li>4.400</li>
+                                    <li>3.000</li>
+                                    <li>8.000</li>
+                                    <li>9.500</li>
+                                    <li>1.000</li>
+                                    <li>2.000</li>
+                                    <li>4.400</li>
+                                    <li>3.000</li>
+                                    <li>8.000</li>
+                                    <li>9.500</li>
+                                    <li>1.000</li>
+                                    <li>2.000</li>
+                                    <li>4.400</li>
+                                    <li>3.000</li>
+                                    <li>8.000</li>
+                                    <li>9.500</li>
+                                    <li>1.000</li>
+                                    <li>2.000</li>
+                                    <li>4.400</li>
+                                    <li>3.000</li>
+                                    <li>8.000</li>
+                                    <li>9.500</li>
+                                    <li>1.000</li>
+                                    <li>2.000</li>
+                                    <li>4.400</li>
+                                    <li>3.000</li>
+                                    <li>8.000</li>
+                                    <li>9.500</li>
+                                    <li>1.000</li>
+                                    <li>2.000</li>
+                                    <li>4.400</li>
+                                    <li>3.000</li>
+                                    <li>8.000</li>
+                                    <li>9.500</li>
+                                    <li>1.000</li>
+                                    <li>2.000</li>
+                                    <li>4.400</li>
+                                    
+                             
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                     
+
+                </div>
+
+            </div>
+
+                <!-- Horizontal================ -->
+
+            <div class="horizontal1">
+
+                <div class="cima1">
+                    <h1>Olá Software House!, Temos produtos novos para sua Patente!</h1>
+                </div>
+
+                <div class="baixo">
+
+                    
+
+                    <div class="ranking">
+                        <img src="./img/3lugar.png" alt="">
+                        <h1>75.589 <span>Pts.</span> </h1>
+                        
+                    </div>
+
+                    <div class="rolagem">
+
+                        <div class="produtos">
+
+                            
+                                <div class="card bronze">
+                                    <div class="titulo"><h1>Palestra</h1></div>
+                                    
+                                    <img src="./img/microsoft.png" alt="">
+                                    <h1>50.000</h1>
+                                    <button onclick="abrirTroca()">Trocar</button>
+                                </div>
+
+                                <div class="card bronze">
+                                    <div class="titulo"><h1>Curso</h1></div>
+                                    
+                                    <img src="./img/python.png" alt="">
+                                    <h1>110.000</h1>
+                                    <button onclick="abrirTroca()">Trocar</button>
+                                </div>
+
+                                <div class="card bronze">
+                                    <div class="titulo"><h1>Treinamento</h1></div>
+                            
+                                    <img src="./img/oracle.png" alt="">
+                                    <h1>7.000</h1>
+
+                                    <button onclick="abrirTroca()">Trocar</button>
+                                </div>
+
+                                
+                                
+
+                        </div>
+
+                        <div class="produtos">
+
+                            
+                                <div class="card bronze">
+                                    <div class="titulo"><h1>Palestra</h1></div>
+                                    
+                                    <img src="./img/microsoft.png" alt="">
+                                    <h1>5.000</h1>
+                                    <button onclick="abrirTroca()">Trocar</button>
+                                </div>
+
+                                <div class="card bronze">
+                                    <div class="titulo"><h1>Curso</h1></div>
+                                    
+                                    <img src="./img/python.png" alt="">
+                                    <h1>2.000</h1>
+                                    <button onclick="abrirTroca()">Trocar</button>
+                                </div>
+
+                                <div class="card bronze">
+                                    <div class="titulo"><h1>Treinamento</h1></div>
+                            
+                                    <img src="./img/oracle.png" alt="">
+                                    <h1>7.000</h1>
+
+                                    <button onclick="abrirTroca()">Trocar</button>
+                                </div>
+
+                                
+                                
+
+                        </div>
+
+
+                        <div class="produtos">
+
+                            
+                                <div class="card bronze">
+                                    <div class="titulo"><h1>Palestra</h1></div>
+                                    
+                                    <img src="./img/microsoft.png" alt="">
+                                    <h1>5.000</h1>
+                                    <button onclick="abrirTroca()">Trocar</button>
+                                </div>
+
+                                <div class="card bronze">
+                                    <div class="titulo"><h1>Curso</h1></div>
+                                    
+                                    <img src="./img/python.png" alt="">
+                                    <h1>2.000</h1>
+                                    <button onclick="abrirTroca()">Trocar</button>
+                                </div>
+
+                                <div class="card bronze">
+                                    <div class="titulo"><h1>Treinamento</h1></div>
+                            
+                                    <img src="./img/oracle.png" alt="">
+                                    <h1>7.000</h1>
+
+                                    <button onclick="abrirTroca()">Trocar</button>
+                                </div>
+
+                                
+                                
+
+                        </div>
+
+
+                        <div class="produtos">
+
+                           
+
+                                <div class="card prata">
+                                    <h1>Palestra</h1>
+                                    <img src="./img/java.png" alt="">
+                                    <h1>4.000</h1>
+                                    <button onclick="">Trocar</button>
+                                </div>
+
+                                <div class="card prata">
+                                    <h1>Treinamento</h1>
+                                    <img src="./img/microsoft.png" alt="">
+                                    <h1>6.000</h1>
+                                    <button onclick="">Trocar</button>
+                                </div>
+
+                                <div class="card prata">
+                                    <h1>Visita Técnica</h1>
+                                    <img src="./img/microsoft.png" alt="">
+                                    <h1>10.000</h1>
+                                    <button onclick="">Trocar</button>
+                                </div>
+                            
+
+                        </div>
+                        <div class="produtos">
+
+                           
+
+                                <div class="card prata">
+                                    <h1>Palestra</h1>
+                                    <img src="./img/java.png" alt="">
+                                    <h1>4.000</h1>
+                                    <button >Trocar</button>
+                                </div>
+
+                                <div class="card prata">
+                                    <h1>Treinamento</h1>
+                                    <img src="./img/microsoft.png" alt="">
+                                    <h1>6.000</h1>
+                                    <button >Trocar</button>
+                                </div>
+
+                                <div class="card prata">
+                                    <h1>Visita Técnica</h1>
+                                    <img src="./img/microsoft.png" alt="">
+                                    <h1>10.000</h1>
+                                    <button >Trocar</button>
+                                </div>
+                            
+
+                        </div>
+                        <div class="produtos">
+
+                           
+
+                                <div class="card prata">
+                                    <h1>Palestra</h1>
+                                    <img src="./img/java.png" alt="">
+                                    <h1>4.000</h1>
+                                    <button >Trocar</button>
+                                </div>
+
+                                <div class="card prata">
+                                    <h1>Treinamento</h1>
+                                    <img src="./img/microsoft.png" alt="">
+                                    <h1>6.000</h1>
+                                    <button >Trocar</button>
+                                </div>
+
+                                <div class="card prata">
+                                    <h1>Visita Técnica</h1>
+                                    <img src="./img/microsoft.png" alt="">
+                                    <h1>10.000</h1>
+                                    <button >Trocar</button>
+                                </div>
+                            
+
+                        </div>
+
+                        <div class="produtos">
+
+                           
+
+                                <div class="card ouro">
+                                    <h1>Curso XML</h1>
+                                    <img src="./img/xml.png" alt="">
+                                    <h1>8.000</h1>
+                                    <button>Trocar</button>
+                                </div>
+
+                                <div class="card ouro">
+                                    <h1>Treinamento Python</h1>
+                                    <img src="./img/python.png" alt="">
+                                    <h1>6.000</h1>
+                                    <button >Trocar</button>
+                                </div>
+
+                                <div class="card ouro">
+                                    <h1>Visita Técnica Python</h1>
+                                    <img src="./img/python.png" alt="">
+                                    <h1>12.000</h1>
+                                    <button >Trocar</button>
+                                </div>
+                            
+
+                        </div>
+                        <div class="produtos">
+
+                           
+
+                                <div class="card ouro">
+                                    <h1>Curso XML</h1>
+                                    <img src="./img/xml.png" alt="">
+                                    <h1>8.000</h1>
+                                    <button >Trocar</button>
+                                </div>
+
+                                <div class="card ouro">
+                                    <h1>Treinamento Python</h1>
+                                    <img src="./img/python.png" alt="">
+                                    <h1>6.000</h1>
+                                    <button >Trocar</button>
+                                </div>
+
+                                <div class="card ouro">
+                                    <h1>Visita Técnica Python</h1>
+                                    <img src="./img/python.png" alt="">
+                                    <h1>12.000</h1>
+                                    <button >Trocar</button>
+                                </div>
+                            
+
+                        </div>
+                        <div class="produtos">
+
+                           
+
+                                <div class="card ouro">
+                                    <h1>Curso XML</h1>
+                                    <img src="./img/xml.png" alt="">
+                                    <h1>8.000</h1>
+                                    <button >Trocar</button>
+                                </div>
+
+                                <div class="card ouro">
+                                    <h1>Treinamento Python</h1>
+                                    <img src="./img/python.png" alt="">
+                                    <h1>6.000</h1>
+                                    <button >Trocar</button>
+                                </div>
+
+                                <div class="card ouro">
+                                    <h1>Visita Técnica Python</h1>
+                                    <img src="./img/python.png" alt="">
+                                    <h1>12.000</h1>
+                                    <button >Trocar</button>
+                                </div>
+                            
+
+                        </div>
+
+                    </div>
+
+                    
+
+                </div>
+
+            </div>
+
+            <!-- Horizontal2============================ -->
+
+            <div class="horizontal horizontal2">
+
+                <div class="cima1">
+                    <h1>Olá Software House!, Edite seus dados cadastrais</h1>
+                </div>
+
+                <div class="baixo ">
+                    
+                    <div class="ranking">
+                        <img src="./img/3lugar.png" alt="">
+                        <h1>75.589 <span>Pts.</span> </h1>
+                    </div>
+                    <h1 id="dc">Dados Cadastrais</h1>
+
+                    <div class="rl1">
+
+                        <div class="editar">
+
+                            <div class="parte1">
+                                 Nome
+                                <input type="text" value="Software House" id="dados">
+                               
+                                CNPJ
+                                <input type="text" value="2455.515.5458.44.1" id="dados">
+
+                                Email
+                                <input type="text" value="sh@gmail.com" id="dados">
+
+                                
+
+                                
+                            </div>
+
+                            <div class="parte2">
+                                
+
+                                Cidade
+                                <input type="text" value="São Paulo" id="dados">
+
+                                Endereco
+                                <input type="text" value="Rua Francisco House" 
+                                id="dados">
+
+                                Telefone
+                                <input type="text" value="(11)44589568" id="dados">
+                                
+                                
+                                
+                            </div>
+
+                            
+                        </div>
+
+                       
+
+                    </div>
+
+                    <button id="atualizar">Aualizar</button>
+
+                </div>
+
+            </div>
+
+            <!-- Horizontal============================================= -->
+            <div class="horizontal3">
+
+                <div class="cima cmi">
+                        <div class="restam">A temporada esta acabando!!</div>
+
+                        <div class="count">
+                            
+                                <div class="countd">
+                                    <span id="dias">00</span>
+                                    DIAS
+                                </div>
+                                <div class="countd">
+                                    <span id="horas">00</span>
+                                    HORAS
+                                </div>
+                                <div class="countd">
+                                    <span id="minutos">00</span>
+                                    MINUTOS
+                                </div>
+                                <div class="countd">
+                                    <span id="segundos">00</span>
+                                    SEGUNDOS
+                                </div>
+                    
+                            </div>
+
+                </div>
+
+                <div class="baixo preto">
+
+                    
+                    
+                    <div class="painel5">
+
+                        <table class="temporada">
+                            
+
+                                <tr id="posicao">
+                                    <td>Rank</td>
+                                    <td>Software House</td>
+                                    <td>Nivel</td>
+                                    <td>Pontuação</td>
+                                </tr>
+                                <tr onclick="aparecePerfil1()" id="primeiro">
+                                    <td>1</td>
+                                    <td>SH movs</td>
+                                    <td>Ouro</td>
+                                    <td>500.000 </td>
+                                </tr>
+                                <tr onclick="aparecePerfil2()" id="primeiro">
+                                    <td>2</td>
+                                    <td>Macarrona</td>
+                                    <td>Ouro</td>
+                                    <td>420.500 </td>
+                                </tr>
+                                <tr onclick="aparecePerfil3()" id="primeiro">
+                                    <td>3</td>
+                                    <td>ManeGarrincha</td>
+                                    <td>Ouro</td>
+                                    <td>400.200 </td>
+                                </tr>
+                                <tr onclick="aparecePerfil3()" id="primeiro"> 
+                                    <td>4</td>
+                                    <td>Coquinho do Seu zé</td>
+                                    <td>Ouro</td>
+                                    <td>400.200</td>
+                                </tr>
+                                <tr onclick="aparecePerfil2()" id="primeiro">
+                                    <td>5</td>
+                                    <td>MercadoEats</td>
+                                    <td>Ouro</td>
+                                    <td>400.000 </td>
+                                </tr>
+                                <tr onclick="aparecePerfil1()" id="segundo">
+                                    <td>6</td>
+                                    <td>SH Bemtivi</td>
+                                    <td>Prata</td>
+                                    <td>369.000 </td>
+                                </tr>
+                                <tr onclick="aparecePerfil3()" id="segundo">
+                                    <td>7</td>
+                                    <td>Salve Jorge</td>
+                                    <td>Prata</td>
+                                    <td>358.000</td>
+                                </tr>
+                                <tr onclick="aparecePerfil3()" id="segundo">
+                                    <td>8</td>
+                                    <td>Coquinho do Seu zé</td>
+                                    <td>Prata</td>
+                                    <td>300.500</td>
+                                </tr>
+                                <tr onclick="aparecePerfil1()" id="terceiro">
+                                    <td>9</td>
+                                    <td>MercadoEats</td>
+                                    <td>Bronze</td>
+                                    <td>195.000 </td>
+                                </tr>
+                                <tr onclick="aparecePerfil4()" id="sqg">
+                                    <td>10</td>
+                                    <td>ComMenu</td>
+                                    <td>Bronze</td>
+                                    <td>150.000 </td>
+                                </tr>
+                                <tr onclick="aparecePerfil1()" id="terceiro">
+                                    <td>11</td>
+                                    <td>Salve Jorge</td>
+                                    <td>Bronze</td>
+                                    <td>149.000</td>
+                                </tr>
+                            
+                        </table>
+
+                        <div class="concorrente sqginfo">
+
+                            <img src="./img/mov.png" alt="">
+                            <h1>Alimentacao</h1>
+                            <p>Uma empresa que forneçe sistemas de gerenciamento
+                                de frente de loja.
+                            </p>
+                            
+                        </div>
+                        <div class="concorrente sweda">
+
+                            <img src="./img/mov.png" alt="">
+                            <h1>Transporte</h1>
+                            <p>Uma empresa que forneçe sistemas de gerenciamento
+                                de frente de de loja para o setor de Transporte
+                            </p>
+                            
+                        </div>
+                        <div class="concorrente mov">
+
+                            <img src="./img/mov.png" alt="">
+                            <h1>Saude</h1>
+                            <p>Uma empresa que forneçe sistemas de gerenciamento
+                                de frente de loja. parasistemas de hospitais publicos e particulares
+                            </p>
+                            
+                        </div>
+                        <div class="concorrente yy">
+
+                            <img src="./img/mov.png" alt="">
+                            <h1>Festa</h1>
+                            <p>Uma empresa que forneçe sistemas de gerenciamento
+                                de frente de loja. para Buffets, salao de festa etc.
+                            </p>
+                            
+                        </div>
+                        
+                    </div>
+                   
+
+
+
+                </div>
+
+            </div>
+
+            
+            <!-- Horizontal4====================================================== -->
+
+            <div class="horizontal4">
+
+                <div class="cima1">
+                    <h1>Olá Software House!</h1>
+                </div>
+
+                <div class="baixo">
+
+                    <div class="ranking">
+                        <img src="./img/3lugar.png" alt="">
+                        <h1>75.589 <span>Pts.</span> </h1>
+                        
+                    </div>
+
+                    <h1 id="dc">Histórico de Trocas realizadas</h1>
+
+                    <div class="rl4">
+
+                        <div class="tabela">
+
+                            <div class="completadas">
+                                <h1 id="lista-titulo">Troca</h1>
+                                <ul class="lista">
+                                    <li>Palestra Java</li>
+                                    <li>Treinamento de Software</li>
+                                    <li>Visitas Técnica Oracle</li>
+                                    <li>Visita Técnica Microsoft </li>
+                                    <li>Curso XML</li>
+                                    <li>Desconto em Certificação Java</li>
+                                    <li>Viagem coletiva</li>
+                                    <li>Treinmaneto Python</li>
+                                    <li>Visita Técnica Python</li>
+                                    <li>Master</li>
+                                    
+                                    
+                                </ul>
+                            </div>
+
+                            <div class="recebido">
+                                <h1>Pontos</h1>
+                                <ul class="lista">
+                                    <li>5.000</li>
+                                    <li>3.000</li>
+                                    <li>8.000</li>
+                                    <li>10.000</li>
+                                    <li>6.000</li>
+                                    <li>4.000</li>
+                                    <li>15.000</li>
+                                    <li>5.000</li>
+                                    <li>3.000</li>
+                                    <li>84.000</li>
+                                    
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================================================================================================================== -->
+            <div class="horizontal5">
+
+                <div class="cima1">
+                    <h1>Regras</h1>
+                </div>
+
+                <div class="baixo">
+
+                    <h1 id="dc">Regra do jogo</h1>
+
+                    <div class="rl4">
+
+                        <div class="tabela">
+
+                            
+
+                            <div class="recebido2">
+                                <h1>Descrição</h1>
+                                <ul class="lista2">
+                                    <li>Os Pontos podem ser adquiridos ao você: Se cadastrar, Venda de Produto, Indicação, Pesquisa de Satisfação.</li>
+                                    <li>Será desbloqueiado produtos e novos desafios assim que: Subir de nivel, conforme a cada temporada novos desafios viram conforme o seu nivel. </li>
+                                    <li>Os niveis serão: Bronze, Prata e Ouro </li>
+                                    <li>Ao chegar no nivel Bronze você ganha 10.000 pts para acelerar ainda mais sua jornaa! Além do Desbloqueio de novos produtos</li>
+                                    <li>Ao chegar no nivel Prata você ganha 15.000 pts Além de desbloqueiar novos produtos você ganha uma visita técnica para levar uma equipe de 20 funcionarios</li>
+                                    <li>Ao chegar no nivel Ouro você ganha 20.000 pts onde irá desbloqueiar um dos melhores produtos ganha uma viagem especial de férias e ainda tem preferencia de rank nas temporadas!</li>
+                                    <li>Para desbloqueia produto as vezes será necessário alguns requisitos como desafios cumprimidos etc</li>
+                                    <li>Ao ganhar uma temporada em primeiro lugar você receberá um prêmio e receberá descontos e alguns produtos especificos</li>
+                                     
+                                    
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    
+
+                </div>
+
+            </div>
+
+
+        </header>
+
+        <!-- Script de contagem regressiva================ -->
+        <script type="text/javascript">
+
+            let count = new Date("jun 30,2019 00:00:00").getTime();
+            let     x = setInterval(function(){
+            let   now = new Date().getTime();
+            let     d = count - now;
+    
+            let  dias = Math.floor(d/(1000*60*60*24));
+            let horas = Math.floor((d%(1000*60*60*24))/(1000*60*60));
+            let minutos = Math.floor((d%(1000*60*60))/(1000*60));
+            let segundos = Math.floor((d%(1000*60))/1000);
+    
+            document.getElementById("dias").innerHTML = dias;
+            document.getElementById("horas").innerHTML = horas;
+            document.getElementById("minutos").innerHTML = minutos;
+            document.getElementById("segundos").innerHTML = segundos;
+    
+            if(d <= 0){
+                clearInterval(x);
+            }
+    
+            },1000)
+    
+        </script>
+
+    
+</body>
+</html>

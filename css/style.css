@@ -1,0 +1,481 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+
+}
+ 
+
+
+
+
+/* Login================================== */
+
+.painel{
+    width: 100vw;
+    height: 90vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    background-color: #5588a3;
+    color: black;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+}
+
+.login input[type="text"], input[type="password"]{
+    width: 200px;
+    padding: 15px;
+    border: 1px solid#145374;
+    color: black;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 5px;
+    transition: .4s;
+}
+
+.login input[type="text"]:focus, input[type="password"]:focus{
+    width: 250px;
+}
+.login button{
+    width: 150px;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .2s;
+    color: white;
+    background-color: #145374;
+    border: 1px solid white;
+}
+.login button:hover{
+    
+    color: #145374;
+    background-color: #fff;
+    border: 1px solid #145374;
+
+}
+.login a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* Cadastro================================================ */
+.cadastro{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    background-color: #5588a3;
+    color: black;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    
+}
+
+.cadastro input[type="text"], input[type="password"]{
+    width: 200px;
+    padding: 15px;
+    border: 1px solid#5588a3;
+    color: black;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 5px;
+    transition: .4s;
+}
+
+.cadastro input[type="text"]:focus, input[type="password"]:focus{
+    width: 250px;
+}
+.cadastro button{
+    width: 150px;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .2s;
+    color: white;
+    background-color: #145374;
+    border: 1px solid white;
+}
+.cadastro button:hover{
+    
+    color: #145374;
+    background-color: #fff;
+    border: 1px solid #0061a5;
+
+ 
+}
+/* ===================================== */
+
+.pai{
+    transition: 1s;
+    
+}
+/* nav ========================= */
+nav{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+/* cima================================================== */
+.cor{
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #0061a5;
+   
+}
+.cima{
+    width: 60%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.logo-pesquisa{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.logo-pesquisa img{
+    width: 200px;
+}
+ 
+
+.entrar{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.entrar button{
+    width: 180px;
+    padding: 14px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: #145374;
+    color: #fff;
+    transition: .2s;
+    
+}
+.entrar button:hover{
+    color: #145374;
+    background-color: #fff;
+    border: 1px solid #145374;
+}
+.entrar p{
+    cursor: pointer;
+    color: #145374;
+    font-weight: bold;
+}
+ 
+/* =================================================================== */
+
+/* baixo================================= */
+.baixo{
+    width: 60%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+    color: black;
+}
+.menu{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.principal{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.principal li{
+    cursor: pointer;
+}
+.principal a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.juntar{
+    position: absolute;
+    margin-top: 15px;
+    width: 600px;
+    height: 315px;
+    background-color: #fff;
+    list-style: none;
+    color: black;
+    display: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column; 
+    transition: 1s;
+}
+ 
+.juntar li{
+    margin: 5px;
+}
+.trocar{
+    position: absolute;
+    margin-top: 15px;
+    width: 600px;
+    height: 315px;
+    background-color: #fff;
+    list-style: none;
+    color: black;
+    display: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column; 
+}
+
+
+.ofertas{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+/* ========================================================================== */
+
+
+
+
+
+/* header========================================= */
+
+
+
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+    margin-top: 50px;;
+}
+.banner img{
+    width: 1500px;
+}
+.pontos{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: 150px;
+    justify-content: space-around;
+}
+.btn{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn button{
+    width: 150px;
+    padding: 15px;
+    border: 1px solid #145374 ;
+    border-radius:5px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #145374;
+    transition: .2s;
+}
+
+.btn button:hover{
+    color: white;
+    background-color: #145374;
+}
+.btn a{
+    text-decoration: none;
+    color: #145374;
+}
+.btn a:hover{
+    color: white;
+}
+
+/* =================================================================================== */
+
+
+main{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.cardapio{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    width: 350px;
+    height: 380px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 10px 10px 10px 20px rgba(0,0,0,0.1);
+    transition: .4s;
+}
+.card img{
+    width: 200px;
+}
+.card:hover{
+    margin-top: -25px;
+}
+
+.btns{
+    width: 120px;
+    padding: 14px;
+    border: 1px solid #145374;
+    color: #145374;
+    background-color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: .2s;
+}
+.btns:hover{
+    color: white;
+    background-color: #145374;
+}
+.btns a{
+    text-decoration: none;
+    color: #145374;
+}
+.btns a:hover{
+    color: white;
+}
+
+
+/* Aside Grid======================================= */
+
+aside{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #145374;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.texto{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
+
+.texto img{
+    width: 500px;
+     
+}   
+
+aside h1{
+    margin-left: -50%;
+    font-size: 40px;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section h1{
+    margin-left: -50%;
+    font-size: 40px;
+}
+section p{
+    width: 500px;
+}
+
+
+/* Foooter=============================== */
+
+footer{
+    width: 100vw;
+    height: 150px;
+    background-color: #313131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.fonte{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.fonte ul{
+    list-style: none;
+   
+}
+.fonte ul li{
+    margin: 10px;
+    font-weight: bold;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}

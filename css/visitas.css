@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.visitaMicro{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.visitaMicro img{
+    width: 300px;
+}
+
+
+.regras{
+    width: 100vw;
+    height: 100vh;
+    background-color: #145374;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white
+
+}
+
+.detalhes{
+    align-items: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.exemplo{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f3f3f3;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.exemplo h1{
+    margin-right: 1000px;
+     
+}
+
+.comoFunciona{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.p{
+    flex-direction: column;
+    width: 80%;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+}
+ 
+.p h1{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.dir{
+    margin-left: 450px;
+}
+.dir:hover, .esq:hover{
+    background-color: #0061a5;
+    cursor: pointer;
+}

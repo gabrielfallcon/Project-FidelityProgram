@@ -1,0 +1,246 @@
+{% comment %} <!DOCTYPE html>
+<html lang="pt-br   ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/conta.css">
+    <link rel="stylesheet" href="css/scroll.css">
+
+    <script defer src="./js/scripts.js"></script>
+    <script defer src="./js/temporada.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    
+        <nav>
+                <div class="cor temporadaCor">
+                    <div class="cima">
+    
+                        <a href="index.html">
+                            <div class="logo-pesquisa">
+                                <img src="./img/favico.png" alt="">
+                                
+                            </div>
+                        </a>
+    
+                        <div class="voltarPainel">
+                            <button onclick="logIn()">Voltar</button>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+    
+               
+        <header>
+            
+
+            
+            
+
+                <!-- Horizontal================ -->
+
+            
+
+            <!-- Horizontal============================================= -->
+
+            <div class="horizontal3">
+
+                <div class="cima cmi">
+                        <div class="restam">A temporada esta acabando!!</div>
+
+                        <div class="count">
+                            
+                                <div class="countd">
+                                    <span id="dias">00</span>
+                                    DIAS
+                                </div>
+                                <div class="countd">
+                                    <span id="horas">00</span>
+                                    HORAS
+                                </div>
+                                <div class="countd">
+                                    <span id="minutos">00</span>
+                                    MINUTOS
+                                </div>
+                                <div class="countd">
+                                    <span id="segundos">00</span>
+                                    SEGUNDOS
+                                </div>
+                    
+                            </div>
+
+                </div>
+
+                <div class="baixo preto">
+
+                    <div class="ranking">
+                        <img src="./img/3lugar.png" alt="">
+                        <h1>75.589 <span>Pts.</span> </h1>
+                        
+                    </div>
+                    
+                    <div class="painel5">
+
+                        <table class="temporada">
+                            
+
+                                <tr id="posicao">
+                                    <td>Rank</td>
+                                    <td>Software House</td>
+                                    <td>Nivel</td>
+                                    <td>Pontuação</td>
+                                </tr>
+                                <tr onclick="aparecePerfil1()" id="primeiro">
+                                    <td>1</td>
+                                    <td>SH movs</td>
+                                    <td>Ouro</td>
+                                    <td>150.000 </td>
+                                </tr>
+                                <tr onclick="aparecePerfil2()" id="primeiro">
+                                    <td>2</td>
+                                    <td>Macarrona</td>
+                                    <td>Ouro</td>
+                                    <td>100.500 </td>
+                                </tr>
+                                <tr onclick="aparecePerfil3()" id="primeiro">
+                                    <td>3</td>
+                                    <td>ManeGarrincha</td>
+                                    <td>Ouro</td>
+                                    <td>100.000 </td>
+                                </tr>
+                                <tr onclick="aparecePerfil3()" id="primeiro"> 
+                                    <td>4</td>
+                                    <td>Coquinho do Seu zé</td>
+                                    <td>Ouro</td>
+                                    <td>98.000</td>
+                                </tr>
+                                <tr onclick="aparecePerfil2()" id="primeiro">
+                                    <td>5</td>
+                                    <td>MercadoEats</td>
+                                    <td>Ouro</td>
+                                    <td>95.000 </td>
+                                </tr>
+                                <tr onclick="aparecePerfil1()" id="segundo">
+                                    <td>6</td>
+                                    <td>SH Bemtivi</td>
+                                    <td>Prata</td>
+                                    <td>89.000 </td>
+                                </tr>
+                                <tr onclick="aparecePerfil3()" id="segundo">
+                                    <td>7</td>
+                                    <td>Salve Jorge</td>
+                                    <td>Prata</td>
+                                    <td>80.000</td>
+                                </tr>
+                                <tr onclick="aparecePerfil3()" id="segundo">
+                                    <td>8</td>
+                                    <td>Coquinho do Seu zé</td>
+                                    <td>Prata</td>
+                                    <td>78.500</td>
+                                </tr>
+                                <tr onclick="aparecePerfil1()" id="terceiro">
+                                    <td>9</td>
+                                    <td>MercadoEats</td>
+                                    <td>Bronze</td>
+                                    <td>78.000 </td>
+                                </tr>
+                                <tr onclick="aparecePerfil4()" id="sqg">
+                                    <td>10</td>
+                                    <td>SQG Info</td>
+                                    <td>Bronze</td>
+                                    <td>77.000 </td>
+                                </tr>
+                                <tr onclick="aparecePerfil1()" id="terceiro">
+                                    <td>11</td>
+                                    <td>Salve Jorge</td>
+                                    <td>Bronze</td>
+                                    <td>60.000</td>
+                                </tr>
+                            
+                        </table>
+
+                        <div class="concorrente sqginfo">
+
+                            <img src="./img/sqg.png" alt="">
+                            <h1>Alimentacao</h1>
+                            <p>Uma empresa que forneçe sistemas de gerenciamento
+                                de frente de loja.
+                            </p>
+                            
+                        </div>
+                        <div class="concorrente sweda">
+
+                            <img src="./img/sweda.png" alt="">
+                            <h1>Transporte</h1>
+                            <p>Uma empresa que forneçe sistemas de gerenciamento
+                                de frente de de loja para o setor de Transporte
+                            </p>
+                            
+                        </div>
+                        <div class="concorrente mov">
+
+                            <img src="./img/mov.png" alt="">
+                            <h1>Saude</h1>
+                            <p>Uma empresa que forneçe sistemas de gerenciamento
+                                de frente de loja. parasistemas de hospitais publicos e particulares
+                            </p>
+                            
+                        </div>
+                        <div class="concorrente yy">
+
+                            <img src="./img/3y.png" alt="">
+                            <h1>Festa</h1>
+                            <p>Uma empresa que forneçe sistemas de gerenciamento
+                                de frente de loja. para Buffets, salao de festa etc.
+                            </p>
+                            
+                        </div>
+                        
+                    </div>
+                   
+
+
+
+                </div>
+
+            </div>
+
+            
+
+        </header>
+
+        <!-- Script de contagem regressiva================ -->
+        <script type="text/javascript">
+
+            let count = new Date("jun 30,2019 00:00:00").getTime();
+            let     x = setInterval(function(){
+            let   now = new Date().getTime();
+            let     d = count - now;
+    
+            let  dias = Math.floor(d/(1000*60*60*24));
+            let horas = Math.floor((d%(1000*60*60*24))/(1000*60*60));
+            let minutos = Math.floor((d%(1000*60*60))/(1000*60));
+            let segundos = Math.floor((d%(1000*60))/1000);
+    
+            document.getElementById("dias").innerHTML = dias;
+            document.getElementById("horas").innerHTML = horas;
+            document.getElementById("minutos").innerHTML = minutos;
+            document.getElementById("segundos").innerHTML = segundos;
+    
+            if(d <= 0){
+                clearInterval(x);
+            }
+    
+            },1000)
+    
+        </script>
+
+    
+</body>
+</html> {% endcomment %}

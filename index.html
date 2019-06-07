@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favico.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/scroll.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <script defer src="./js/scripts.js"></script>
+    <script defer src="./js/animate.js"></script>
+
+    <title>Programa de Fidelidade | Home</title>
+</head>
+<body>
+
+     
+
+       
+    
+        <nav>
+            <div class="cor">
+                <div class="cima">
+
+                    <a href="index.html">
+                        <div class="logo-pesquisa">
+                            <img src="./img/favico.png" alt="">
+                            
+                        </div>
+                    </a>
+
+                    <div class="entrar">
+                            <p onclick="logar()">Entrar</p>
+                        <button onclick="cadastrar()">Quero criar minha conta</button>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- <div class="baixo">
+
+                <div class="menu">
+                    <ul class="principal">
+                        <li> <a href="index.html">Skytef</a></li>
+
+                        <li onmouseover="">Como Juntar pontos?
+                            <ul class="juntar" onmouseout="fecharPontos()">
+
+                                <h1>Junte Pontos</h1>
+
+                                <li>Missões</li>
+                                <li>Pesquisas de Satisfação</li>
+                                <li>Jornada linha de frente</li>
+                                <li>preimo</li>
+                                <li>primeio</li>
+                            </ul>
+                        </li>
+
+                        <li onmouseover="">Como Trocar?
+                            <ul onmouseout="fecharTroca()" class="trocar">
+
+                                <h1>Troque Pontos</h1>
+
+                                <li>Premios</li>
+                                <li>Premios</li>
+                                <li>Premios</li>
+                                <li>Premios</li>
+                                <li>Premios</li>
+                                
+                            </ul>
+                        </li>
+
+                        <li>Categorias</li>
+
+                    </ul>
+                </div>
+
+               
+            </div> -->
+
+        </nav>
+
+         <div class="painel"> 
+
+            <div class="login">
+
+                 
+
+                <h1>Login</h1>
+
+                <input type="text" placeholder="digite o CNPJ..">
+                <input type="password" placeholder="digite a senha..">
+                <button onclick="logIn()">Entrar</button>
+
+                <p> <a href=""> Esqueci minha senha </a></p>
+               
+
+            </div>
+
+            <div class="cadastro">
+
+                    <div class="parte1"></div>
+
+                        <h1>Cadastro</h1>
+
+                        <input type="text" placeholder="digite o nome da Software House..">
+                        <input type="text" placeholder="CNPJ..">
+                        <input type="password" placeholder="Senha">
+                        <input type="password" placeholder="confirmar senha">
+                    
+                    
+                    <button onclick="redirecionar()">Cadastrar</button>
+
+            </div>
+
+        </div>
+        <div class="pai">
+
+        
+
+        <!-- Header==== -->
+        
+
+        <header>
+
+            <div class="banner">
+                <img src="./img/banner.png" alt="">
+            </div>
+
+            <div class="pontos">
+                <h1>Já Pensou em:</h1>
+                <div class="btn">
+                    <button> <a href="#aside">Juntar Pontos</a> </button>
+                    <button> <a href="#section">Trocar Pontos</a> </button>
+                    
+                </div>
+            </div>
+
+        </header>
+
+        <main>
+            <div class="cardapio">
+                
+                <div class="card1 card">
+
+                    <img src="./img/microsoft.png" alt="">
+                    <h2>Visitas Técnicas</h2>
+                    <button class="btns"> <a href="visitas.html">Veja Mais</a> </button>
+
+                </div>
+
+                <div class="card2 card">
+
+                    <img src="./img/oracle.png" alt="">
+                    <h2>Treinamentos</h2>
+                    <button class="btns"><a href="treinamentos.html">Veja Mais</a></button>
+
+                </div>
+
+                <div class="card3 card">
+
+                    <img src="./img/xml.png" alt="">
+                    <h2>Cursos</h2>
+                    <button class="btns"><a href="cursos.html">Veja Mais</a></button>
+
+                </div>
+
+            </div>
+        </main>
+
+        <!-- Section ========================================================= -->
+
+        <!--  -->
+
+        <!-- Aside==============; -->
+
+        <aside id="aside">
+
+            <h1>Como ganhar pontos?</h1>
+                
+
+                    <div class="texto">
+                        <p data-anime="left"> Para começar a ganhar basta começar!<br><br>
+
+                            
+                            Existem diversas formas de ganhar:<br><br>
+                        - A cada venda envolvendo um produto da Skytef<br><br>
+                        - Indicando novos parceiros <br><br>
+                        - Compra de produtos SkyTef por parceiros indicados<br><br>     
+                        - Respondendo as Pesquisa de Satisfação<br><br><br>
+
+                        Acumule pontos, suba de categoria e desbloquei novos produtos!
+
+                         
+
+
+                        </p>
+                        <img data-anime="right" src="./img/boy.png" alt="">
+                    </div>
+
+        </aside>
+
+        <section id="section">
+
+            <h1>Como trocar pontos?</h1>
+                
+
+            <div class="texto">
+
+                    <img data-anime="left" src="./img/pc.png" alt="">
+                    <p data-anime="right">                       
+                        Para trocar seus pontos acumulados, basta seguir 5 passos bem simples:<br><br><br>
+                    
+                        1º Acesse o catálogo de produtos após fazer login;<br><br>
+                        2º Escolha o produto que deseja e cabe dentro dos seus pontos e categoria;<br><br>
+                        3º Clique em "Trocar" e confirme o produto escolhido;<br><br>
+                        4º Finalize sua troca;<br><br>
+                        5º Aproveite!
+
+                        
+                    
+                    
+                    </p>
+
+                </div>
+
+        </section>
+        
+
+        <footer>
+            <div class="fonte">
+                <ul>    
+                    <li>Skytef</li>
+                    <li>Parcerias</li>
+                    <li>Produtos</li>
+                    <li><a href="admin.html">Admin</a>  </li>
+                </ul>
+                <ul>
+                    <li>RUA SÃO TOMÉ, 119 
+                            3º ANDAR - VILA OLÍMPIA</li>
+                    <li>SÃO PAULO - SP</li>
+                    <li>CEP 04551-080 </li>
+                </ul>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
