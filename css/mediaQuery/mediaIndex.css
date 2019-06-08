@@ -1,0 +1,188 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+
+    .pai{
+        flex-direction: column;
+        height: 2600px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* -------------Nav */
+    .cima{
+        width: 90vw;
+        height: 100%;
+    }
+    .logo-pesquisa img{
+        width: 150px;
+    }
+    .entrar{
+        width: 50%;
+        flex-direction: column;
+        margin-top: 0;
+        justify-content: center;
+    }
+
+    /* ------------------------------------------------------------------- */
+
+    /* ------------- Tela de Login */
+
+    .painel{
+        width: 100vw;
+        height: auto;
+    }
+    .login{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+    }
+
+    /* ------------------- Tela de Cadastro */
+
+    .cadastro{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+    }
+
+    /* ----------------------------------------------------------------------} */
+
+    /* ------------------Index Home */
+
+    /* Banner----- */
+    .banner img{
+        width: 100vw;
+    }
+
+    /* pontos--------------- */
+    .pontos{
+        width: 100%;
+        height: 200px;
+        justify-content: none;
+        flex-direction: column;
+    }
+    .btn{
+        width: 85%;
+    }
+    main{
+        height: auto;
+    }
+    .cardapio{
+        width: 95%;
+    }
+    .card2, .card3{
+        display: none;
+    }
+
+    /* Aside-------------------------------- */
+    aside{
+        height: auto;
+    }
+    aside h1{
+        margin-left: 0;
+        font-size: 25px;
+    }
+    .texto{
+        width: 90%;
+        height: auto;
+        font-size: 16px;
+        flex-direction: column;
+    }
+    .texto img{
+        width: 300px;
+    }
+
+    /* Section------------------------------------------- */
+    section{
+        height: auto;
+    }
+
+    section h1{
+        margin-left: 0;
+        font-size: 25px;
+    }
+    section p{
+        width: 90%;
+    }
+
+    /* Footer------------------------------------------- */
+
+    footer{
+        height: auto;
+        justify-content: space-between;
+    }
+    .fonte{
+        width: 95vw;
+        font-size: 12px;
+    }
+
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 990px) { 
+    .cima{
+        width: 100%;
+    }
+    .banner img{
+        width: 100vw;
+    }
+    .pontos{
+        width: 95%;
+    }
+    .btn{
+        width: 50%;
+    }
+    
+    /* main------------------------- */
+    .cardapio{
+        width: 100%;
+    }
+    .card3{
+        display: none;
+    }
+
+    /* Aside----------------------- */
+    aside h1{
+        margin-left: 0;
+    }
+    .texto{
+        width: 90%;
+        height: 90%;
+    }
+    .texto img{
+        width: 350px;
+    }
+}
+
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) { 
+    .cima{
+        width: 95%;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .pontos{
+        width: 95%;
+    }
+    .btn{
+        width: 40%;
+    }
+
+    /* Main------------------------------------- */
+
+    .cardapio{
+        width: 100vw;
+    }
+    .card3{
+        display: none;
+    }
+
+}
+
+
+
+ 

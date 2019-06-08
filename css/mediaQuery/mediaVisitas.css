@@ -1,0 +1,109 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+
+    .pai{
+        flex-direction: column;
+        height: 2200px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cima{
+        width: 90vw;
+        height: 100%;
+    }
+    .logo-pesquisa img{
+        width: 150px;
+    }
+    .entrar{
+        width: 50%;
+        flex-direction: column;
+        margin-top: 0;
+        justify-content: center;
+    }
+
+    .visitaMicro h1{
+        font-size: 18px;
+    }
+    .visitaMicro img{
+        width: 150px;
+    }
+
+    /* regras---------------------------- */
+
+    .regras{
+        height: auto;
+    }
+
+    .detalhes{
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .p{
+        font-size: 19px;
+    }
+
+    .detalhes img{
+        width: 250px;
+    }
+    .exemplo{
+        height: auto;
+        flex-direction: column;
+    }
+    #como{
+        margin-right: 0;
+    }
+    .dir{
+        margin-left: 200px;
+    }
+    .comoFunciona{
+        width: 95%;
+        flex-direction: column;
+    }
+    footer{
+        height: auto;
+        
+    }
+    .fonte{
+        width: 100%;
+    }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 990px) { 
+    .cima{
+        width: 100%;
+    }
+    .banner img{
+        width: 100vw;
+    }
+    .detalhes{
+        height: 80%;
+    }
+    .detalhes img{
+        width: 280px;
+    }
+}
+
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) { 
+    .cima{
+        width: 95%;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .pontos{
+        width: 95%;
+    }
+    .btn{
+        width: 40%;
+    }
+    #como{
+        margin-right: 0;
+    }
+}
