@@ -105,6 +105,11 @@ let produtoDois   = document.querySelector('.btnn2')
 let produtoTres   = document.querySelector('.btnn3')
 let produtoQuatro = document.querySelector('.btnn4')
 
+let vertical      = document.querySelector('.vertical')
+let setaBaixo     = document.querySelector('.fa-chevron-down')
+let setaCima      = document.querySelector('.fa-chevron-up')
+let botoes        = document.querySelector('.botoes')
+
 
 let horizontal0   = document.querySelector('.horizontal0')
 let horizontal1   = document.querySelector('.horizontal1')
@@ -121,6 +126,11 @@ function mostrarPainel0(){
     horizontal3.style.display = "none"
     horizontal4.style.display = "none"
     horizontal5.style.display = "none"
+
+    setaBaixo.style.display = "block"
+    setaCima.style.display  = "none"
+    vertical.style.Height   = "auto"
+    botoes.style.display    = "none"
 }
 
 function mostrarPainel1(){
@@ -131,6 +141,11 @@ function mostrarPainel1(){
     horizontal3.style.display = "none"
     horizontal4.style.display = "none"
     horizontal5.style.display = "none"
+
+    setaBaixo.style.display = "block"
+    setaCima.style.display  = "none"
+    vertical.style.Height   = "auto"
+    botoes.style.display    = "none"
 }
 
 
@@ -142,6 +157,11 @@ function mostrarPainel2(){
     horizontal3.style.display = "none"
     horizontal4.style.display = "none"
     horizontal5.style.display = "none"
+
+    setaBaixo.style.display = "block"
+    setaCima.style.display  = "none"
+    vertical.style.Height   = "auto"
+    botoes.style.display    = "none"
 }
 
 
@@ -152,6 +172,11 @@ function mostrarPainel3(){
     horizontal3.style.display = "block"
     horizontal4.style.display = "none"
     horizontal5.style.display = "none"
+
+    setaBaixo.style.display = "block"
+    setaCima.style.display  = "none"
+    vertical.style.Height   = "auto"
+    botoes.style.display    = "none"
     
 }
 
@@ -164,6 +189,11 @@ function mostrarPainel4(){
     horizontal3.style.display = "none"
     horizontal1.style.display = "none"
     horizontal5.style.display = "none"
+
+    setaBaixo.style.display = "block"
+    setaCima.style.display  = "none"
+    vertical.style.Height   = "auto"
+    botoes.style.display    = "none"
 }
 
 function mostrarPainel5(){
@@ -173,6 +203,28 @@ function mostrarPainel5(){
     horizontal2.style.display = "none"
     horizontal3.style.display = "none"
     horizontal1.style.display = "none"
+
+    setaBaixo.style.display = "block"
+    setaCima.style.display  = "none"
+    vertical.style.Height   = "auto"
+    botoes.style.display    = "none"
+}
+
+// Menu DropDown=============================================
+
+function mostrarBotao(){
+    setaBaixo.style.display = "none"
+    setaCima.style.display  = "block"
+    vertical.style.Height   = "100vh"
+    botoes.style.display    = "flex"
+}
+
+
+function desaparecer(){
+    setaBaixo.style.display = "block"
+    setaCima.style.display  = "none"
+    vertical.style.Height   = "auto"
+    botoes.style.display    = "none"
 }
 
 
@@ -194,6 +246,21 @@ function sim(){
     modal1.style.display  = "none"
     body2.style.overflowY = "scroll"
 
+}
+
+function mostrarBotao(){
+    setaBaixo.style.display = "none"
+    setaCima.style.display  = "block"
+    vertical.style.Height   = "100vh"
+    botoes.style.display    = "flex"
+}
+
+
+function desaparecer(){
+    setaBaixo.style.display = "block"
+    setaCima.style.display  = "none"
+    vertical.style.Height   = "auto"
+    botoes.style.display    = "none"
 }
 
 // Modal de Troca========================================

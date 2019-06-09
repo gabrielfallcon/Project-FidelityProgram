@@ -1,0 +1,187 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+
+    .entrarr{
+        width: 30%;
+    }
+
+    /* Header------------------------------- */
+
+    header{
+        height: 2000px;
+        flex-direction: column;
+    }
+
+    .vertical{
+        width: 100vw;
+        height: auto;
+      
+    }
+    .perfil{
+        justify-content: space-around;
+        margin-top: 0;
+        height: 100px;
+    }
+
+    .fa-chevron-up{
+        display: none;
+    }
+    .botoes{
+        margin-top: 0;
+        display: none;
+    }
+    .horizontal0{
+        width: 98vw;
+    }
+    .horizontal0 .produtos{
+        display: none;
+    }
+    .ranking{
+        width: 70%;
+        align-self: center;
+        border: none;
+        border-radius: 0;
+        margin-right: 0;
+        background-color: #fff;
+    }
+    .container{
+        width: 85%;
+    }
+    .situacao{
+        margin-bottom: 0;
+    }
+    .situacao h1{
+        font-size: 25px;
+        align-self: center;
+        width: 80%;
+    }
+    .bzinho{
+        display: none;
+    }
+
+    #dc{
+        margin-left: 0;
+        width: 80%;
+        align-self: center;
+        font-size: 25px;
+    }
+
+    .tabela{
+        width: 95%;
+    }
+    .completadas{
+        width: 50%;
+    }
+    #missaoDireita{
+        margin-left: 50px;
+        font-size: 25px;
+    }
+
+    .recebido{
+        width: 50%;
+    }
+    .recebido h1{
+        font-size: 25px;
+        margin-left: 10%;
+    }
+
+    /* Horizontal1=================================================== */
+
+    .cima1{
+        height: auto;
+    }
+    .cima1 h1{
+        font-size: 25px;
+    }
+    .rolagem{
+        width: 100vw;
+    }
+    .produtos{
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+    }
+    .card{
+        width: 70%;
+        margin: 10px;
+    }
+
+    /* Horizontal2============================================= */
+    .baixo{
+        width: 100%;
+    }
+    .horizontal2 .ranking{
+        display: none;
+    }
+    .rl1{
+        width: 100vw;
+    }
+    .editar{
+        width: 100%;
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+
+    
+
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 990px) { 
+
+    header{
+        height: 2000px;
+        flex-direction: column;
+    }
+     
+    .vertical{
+        width: 100vw;
+        height: auto;
+      
+    }
+    .perfil{
+        justify-content: space-around;
+        margin-top: 0;
+        height: 100px;
+    }
+
+    .fa-chevron-up{
+        display: none;
+    }
+    .botoes{
+        margin-top: 0;
+        display: none;
+    }
+    .horizontal0{
+        width: 98vw;
+    }
+
+    .ranking{
+        display: none;
+    }
+    .container{
+        width: 95%;
+    }
+    .produtos{
+        width: 95vw;
+    }
+
+    .tabela{
+        width: 95vw;
+    }
+
+}
+
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) { 
+    
+
+}
+
+
+
+ 

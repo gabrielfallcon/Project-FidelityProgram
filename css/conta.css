@@ -9,7 +9,7 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+     
 }
 
 /* cima================================================== */
@@ -164,12 +164,12 @@ header{
     width: 100%;
     height: 15%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: 100px;
     font-family: 'Courier New', Courier, monospace;
     background-color: #5588a3;
+    color: white;
 }
 
 .perfil img{
@@ -339,7 +339,7 @@ header{
 .situacao h1{
     font-size: 30px;
 }
-#bz{
+.bz{
     color: #926846;
 }
 

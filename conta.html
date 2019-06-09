@@ -6,13 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="./img/favico.png" type="image/x-icon">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    
+
     <link rel="stylesheet" href="css/conta.css">
     <link rel="stylesheet" href="./css/loadingNivel.css">
     <link rel="stylesheet" href="css/scroll.css">
+    <link rel="stylesheet" href="css/mediaQuery/mediaConta.css">
 
 
     <script defer src="./js/scripts.js"></script>
     <script defer src="./js/temporada.js"></script>
+    <script defer src="./js/menuDrop.js"></script>
     <title>Programa de Fidelidade | Minha Conta</title>
 </head>
 <body>
@@ -35,6 +40,7 @@
                         
                     </div>
                 </div>
+            </nav>
     
                
         <header>
@@ -42,7 +48,8 @@
             <div class="vertical">
                 <div class="perfil">
                     <img src="./img/3y.png" alt="">
-                    
+                    <i onclick="mostrarBotao()" class="fas fa-chevron-down"></i> 
+                    <i onclick="desaparecer()"class="fas fa-chevron-up"></i>
                 </div>
                 <div class="botoes">
                     <button onclick="mostrarPainel0()" class="button btnn0"><h3>Jornada</h3></button>
@@ -104,7 +111,7 @@
 
                         
                         <div class="container">  
-                            <h1 id="bz">BRONZE</h1>
+                            <h1 class="bz">BRONZE</h1>
                             <div class="progress2 progress-moved">
                               <div class="progress-bar2" >
                               </div>                       
@@ -112,7 +119,7 @@
                             <h1>150.589/200.000</h1> 
                         </div>
 
-                        <h1 id="bz">Chegue ao nivel <span>Prata</span>  para desbloqueiar novos Produtos</h1>
+                        <h1 class="bz bzinho">Chegue ao nivel <span>Prata</span>  para desbloqueiar novos Produtos</h1>
                         <div class="produtos">
 
                            
