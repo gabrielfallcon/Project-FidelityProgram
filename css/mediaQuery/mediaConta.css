@@ -21,6 +21,10 @@
         justify-content: space-around;
         margin-top: 0;
         height: 100px;
+        justify-content: space-around;
+    }
+    .fa-chevron-down{
+        display: block;
     }
 
     .fa-chevron-up{
@@ -120,6 +124,32 @@
         width: 100%;
         margin-left: 0;
         flex-direction: column;
+    }
+
+    /* Horizontal3---------------------------------------------------- */
+
+    .count{
+        font-size: 20px;
+    }
+    .painel5{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .temporada{
+        width: 95%;
+        height: 400px;
+    }
+    .concorrente{
+        margin-right: 0;
+    }
+
+    /* Horizontal 4-------------------------------------------------------- */
+
+    .cl4{
+        display: none;
+    }
+    .tabela{
+        width: 100%;
     }
 
 

@@ -127,10 +127,10 @@ function mostrarPainel0(){
     horizontal4.style.display = "none"
     horizontal5.style.display = "none"
 
-    setaBaixo.style.display = "block"
+    // setaBaixo.style.display = "block"
     setaCima.style.display  = "none"
     vertical.style.Height   = "auto"
-    botoes.style.display    = "none"
+    // botoes.style.display    = "none"
 }
 
 function mostrarPainel1(){
@@ -142,10 +142,10 @@ function mostrarPainel1(){
     horizontal4.style.display = "none"
     horizontal5.style.display = "none"
 
-    setaBaixo.style.display = "block"
+    // setaBaixo.style.display = "block"
     setaCima.style.display  = "none"
     vertical.style.Height   = "auto"
-    botoes.style.display    = "none"
+    // botoes.style.display    = "none"
 }
 
 
@@ -158,10 +158,10 @@ function mostrarPainel2(){
     horizontal4.style.display = "none"
     horizontal5.style.display = "none"
 
-    setaBaixo.style.display = "block"
+    // setaBaixo.style.display = "block"
     setaCima.style.display  = "none"
     vertical.style.Height   = "auto"
-    botoes.style.display    = "none"
+    // botoes.style.display    = "none"
 }
 
 
@@ -173,10 +173,10 @@ function mostrarPainel3(){
     horizontal4.style.display = "none"
     horizontal5.style.display = "none"
 
-    setaBaixo.style.display = "block"
+    // setaBaixo.style.display = "block"
     setaCima.style.display  = "none"
     vertical.style.Height   = "auto"
-    botoes.style.display    = "none"
+    // botoes.style.display    = "none"
     
 }
 
@@ -190,10 +190,10 @@ function mostrarPainel4(){
     horizontal1.style.display = "none"
     horizontal5.style.display = "none"
 
-    setaBaixo.style.display = "block"
+    // setaBaixo.style.display = "block"
     setaCima.style.display  = "none"
     vertical.style.Height   = "auto"
-    botoes.style.display    = "none"
+    // botoes.style.display    = "none"
 }
 
 function mostrarPainel5(){
@@ -204,10 +204,10 @@ function mostrarPainel5(){
     horizontal3.style.display = "none"
     horizontal1.style.display = "none"
 
-    setaBaixo.style.display = "block"
+    // setaBaixo.style.display = "block"
     setaCima.style.display  = "none"
     vertical.style.Height   = "auto"
-    botoes.style.display    = "none"
+    // botoes.style.display    = "none"
 }
 
 // Menu DropDown=============================================

@@ -52,12 +52,12 @@
                     <i onclick="desaparecer()"class="fas fa-chevron-up"></i>
                 </div>
                 <div class="botoes">
-                    <button onclick="mostrarPainel0()" class="button btnn0"><h3>Jornada</h3></button>
-                    <button onclick="mostrarPainel1()" class="button btnn1"><h3>Produtos</h3></button>
-                    <button onclick="mostrarPainel2()" class="button btnn2"><h3>Perfil</h3></button>
-                    <button onclick="mostrarPainel3()" class="button btnn3"><h3>Temporada</h3></button>
-                    <button onclick="mostrarPainel4()" class="button btnn4"><h3>Historico</h3></button>
-                    <button onclick="mostrarPainel5()" class="button btnn4"><h3>Regras de Temporada</h3></button>
+                    <button onclick="mostrarPainel0()" class="button btnn0"><h3><a href="#vemJornada">Jornada</a></h3></button>
+                    <button onclick="mostrarPainel1()" class="button btnn1"><h3><a href="#vemProduto">Produtos</a></h3></button>
+                    <button onclick="mostrarPainel2()" class="button btnn2"><h3><a href="#vemPerfil">Perfil</a></h3></button>
+                    <button onclick="mostrarPainel3()" class="button btnn3"><h3><a href="#vemTemporada">Temporada</a></h3></button>
+                    <button onclick="mostrarPainel4()" class="button btnn4"><h3><a href="#vemHistorico">Historico</a></h3></button>
+                    <button onclick="mostrarPainel5()" class="button btnn4"><h3><a href="#vemRegras">Regras de Temporada</a></h3></button>
                 </div>
             </div>
 
@@ -93,7 +93,7 @@
             </div>
 
             <!-- INICIO da horizontal================================================= -->
-            <div class="horizontal horizontal0">
+            <div id="vemJornada" class="horizontal horizontal0">
 
                 <div class="cima3">
                     <h1>Pontos</h1>
@@ -279,7 +279,7 @@
 
                 <!-- Horizontal================ -->
 
-            <div class="horizontal1">
+            <div id="vemProduto" class="horizontal1">
 
                 <div class="cima1">
                     <h1>Olá Software House!, Temos produtos novos para sua Patente!</h1>
@@ -572,7 +572,7 @@
 
             <!-- Horizontal2============================ -->
 
-            <div class="horizontal horizontal2">
+            <div id="vemPerfil" class="horizontal horizontal2">
 
                 <div class="cima1">
                     <h1>Olá Software House!, Edite seus dados cadastrais</h1>
@@ -631,12 +631,25 @@
 
                     <button id="atualizar">Aualizar</button>
 
+                    <div class="indicar">
+
+                        <h2>Copie esse link e indique uma Software House!</h2>
+
+                        <div class="input">
+
+                            <input type="url" readonly="true" value="https://www.skyfid.com/3y/indicacao">
+                            <button title="Copy" ><i class="far fa-copy"></i></button>
+
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>
 
             <!-- Horizontal============================================= -->
-            <div class="horizontal3">
+            <div id="vemTemporada" class="horizontal3">
 
                 <div class="cima cmi">
                         <div class="restam">A temporada esta acabando!!</div>
@@ -797,7 +810,7 @@
             
             <!-- Horizontal4====================================================== -->
 
-            <div class="horizontal4">
+            <div id="vemHistorico" class="horizontal4">
 
                 <div class="cima1">
                     <h1>Olá Software House!</h1>
@@ -805,7 +818,7 @@
 
                 <div class="baixo">
 
-                    <div class="ranking">
+                    <div class="ranking cl4">
                         <img src="./img/3lugar.png" alt="">
                         <h1>75.589 <span>Pts.</span> </h1>
                         
@@ -864,7 +877,7 @@
 
 
             <!-- =========================================================================================================================== -->
-            <div class="horizontal5">
+            <div id="vemRegras" class="horizontal5">
 
                 <div class="cima1">
                     <h1>Regras</h1>
